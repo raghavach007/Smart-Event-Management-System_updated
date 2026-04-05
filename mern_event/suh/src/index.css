@@ -1,0 +1,37 @@
+/* File: suh/src/index.css */
+
+:root {
+  /* Classy Cultural Retro x Modern Foundation */
+  --bg-primary: #F4F1EA; /* Warm, vintage paper off-white */
+  --bg-secondary: #FFFFFF; /* Modern clean white for cards */
+  --text-primary: #2C2A29; /* Deep charcoal for high contrast */
+  --text-secondary: #6B655F; /* Muted earthy gray/brown */
+
+  /* Accents - Rich Terracotta (Cultural/Retro vibe) */
+  --accent-color: #C05A46;
+  --accent-hover: #A04A3A;
+
+  /* Modern Touches */
+  --border-radius: 16px; /* Softer, modern curves */
+  --transition-speed: 0.3s ease;
+  --modern-shadow: 0 10px 30px rgba(44, 42, 41, 0.06); /* Soft, elegant shadow */
+  
+  /* Form Elements */
+  --input-bg: #EAE6DF; 
+  --border-color: #D6D2C9;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply the classy retro font to all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: var(--text-primary);
+}
